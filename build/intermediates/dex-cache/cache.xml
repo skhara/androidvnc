@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/dexy/android_prj/AndroidVNC/app/build/intermediates/pre-dexed/debug/com.antlersoft.android.db-6afb3495eca1fa8b341aa64a9baddf083040986d.jar"
+        jar="/Users/dexy/android_prj/AndroidVNC/app/libs/com.antlersoft.android.db.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="22b26205ed95ecc9ff1e029024b3187ca0fd86b6"/>
+    <item
+        dex="/Users/dexy/android_prj/AndroidVNC/app/build/intermediates/pre-dexed/debug/com.antlersoft.android.contentxml-77d7fe48222cd54001b2c988917cad2a395cc754.jar"
+        jar="/Users/dexy/android_prj/AndroidVNC/app/libs/com.antlersoft.android.contentxml.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0430d5248664e4f08d8b150bb5a9d947767a94ba"/>
+    <item
+        dex="/Users/dexy/android_prj/AndroidVNC/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-2b83c80e0009f3497935b05dff44ea2ac5f15dcf.jar"
+        jar="/opt/homebrew-cask/Caskroom/android-studio/0.8.6 build-135.1339820/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156"/>
+
+</pre-dex-items>
