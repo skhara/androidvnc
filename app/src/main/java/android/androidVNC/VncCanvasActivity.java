@@ -88,6 +88,8 @@ public class VncCanvasActivity extends Activity {
         public void onDisplayRemoved(int displayId) {
             displays = mDisplayManager.getDisplays();
 
+            Log.v(TAG, "onDisplayRemoved");
+
             vncCanvas.closeConnection();
             finish();
         }
@@ -100,6 +102,8 @@ public class VncCanvasActivity extends Activity {
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
+            Log.v(TAG, "RemotePresentation.onCreate");
+
             super.onCreate(savedInstanceState);
             setContentView(R.layout.canvas_remote);
 
@@ -1025,6 +1029,7 @@ public class VncCanvasActivity extends Activity {
 							/ 2);
 			return true;
 		case R.id.itemDisconnect:
+            Log.v(TAG, "Menu itemDisconnect");
 			vncCanvas.closeConnection();
 			finish();
 			return true;
@@ -1112,12 +1117,13 @@ public class VncCanvasActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
+        Log.v(TAG, "onDestroy");
+
 		super.onDestroy();
-		if (isFinishing()) {
-			vncCanvas.closeConnection();
-			vncCanvas.onDestroy();
-			database.close();
-		}
+
+        vncCanvas.closeConnection();
+        vncCanvas.onDestroy();
+        database.close();
 	}
 
 	@Override
