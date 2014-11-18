@@ -182,10 +182,10 @@ public class androidVNC extends Activity {
 	 */
 	@Override
 	public boolean onMenuOpened(int featureId, Menu menu) {
-		menu.findItem(R.id.itemDeleteConnection).setEnabled(
-				selected != null && !selected.isNew());
-		menu.findItem(R.id.itemSaveAsCopy).setEnabled(
-				selected != null && !selected.isNew());
+//		menu.findItem(R.id.itemDeleteConnection).setEnabled(
+//				selected != null && !selected.isNew());
+//		menu.findItem(R.id.itemSaveAsCopy).setEnabled(
+//				selected != null && !selected.isNew());
 		return true;
 	}
 

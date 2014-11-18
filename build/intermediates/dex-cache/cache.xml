@@ -14,8 +14,8 @@
         revision="19.1.0"
         sha1="0430d5248664e4f08d8b150bb5a9d947767a94ba"/>
     <item
-        dex="/Users/dexy/android_prj/AndroidVNC/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-2b83c80e0009f3497935b05dff44ea2ac5f15dcf.jar"
-        jar="/opt/homebrew-cask/Caskroom/android-studio/0.8.6 build-135.1339820/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        dex="/Users/dexy/android_prj/AndroidVNC/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-a5c64518b4249414a5a7b328f2bfac66c7df4aa2.jar"
+        jar="/Users/dexy/android-sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156"/>
