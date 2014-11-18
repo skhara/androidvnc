@@ -808,6 +808,7 @@ public class VncCanvasActivity extends Activity {
 
 	@Override
 	public void onCreate(Bundle icicle) {
+        getApplicationInfo().targetSdkVersion = 10; //dirty fix for missing 3dot menu button on sdk > 14
 
         mDisplayManager = (DisplayManager)getSystemService(Context.DISPLAY_SERVICE);
 
